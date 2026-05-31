@@ -38,42 +38,38 @@ public class ProfileResponse  {
             @JsonProperty("first_name")
             private String firstName;
 
-            private String last_name;
+            @JsonProperty("last_name")
+            private String lastName;
+
             private String username;
             private String email;
-            private String signup_date;
-            private String profile_pic;
+
+            @JsonProperty("signup_date")
+            private String signupDate;
+
+            @JsonProperty("profile_pic")
+            private String profilePic;
 
             // Getters and Setters
 
-            public String getId() {
-                return id;
-            }
-
-            public void setId(String id) {
-                this.id = id;
-            }
+            public String getId() {return id;}
+            public void setId(String id) {this.id = id;}
 
             public String getFirstName() {
                 return firstName;
             }
-
-            public void setFirst_name(String firstName) {
+            public void setFirstName(String firstName) {
                 this.firstName = firstName;
             }
 
-            public String getLast_name() {
-                return last_name;
-            }
-
-            public void setLast_name(String last_name) {
-                this.last_name = last_name;
+            public String getLastName() {return lastName;}
+            public void setLastname(String last_name) {
+                this.lastName = lastName;
             }
 
             public String getUsername() {
                 return username;
             }
-
             public void setUsername(String username) {
                 this.username = username;
             }
@@ -81,25 +77,22 @@ public class ProfileResponse  {
             public String getEmail() {
                 return email;
             }
-
             public void setEmail(String email) {
                 this.email = email;
             }
 
-            public String getSignup_date() {
-                return signup_date;
+            public String getSignupDate() {
+                return signupDate;
+            }
+            public void setSignupDate(String signupDate) {
+                this.signupDate = signupDate;
             }
 
-            public void setSignup_date(String signup_date) {
-                this.signup_date = signup_date;
+            public String getProfilePic() {
+                return profilePic;
             }
-
-            public String getProfile_pic() {
-                return profile_pic;
-            }
-
-            public void setProfile_pic(String profile_pic) {
-                this.profile_pic = profile_pic;
+            public void setProfilePic(String profilePic) {
+                this.profilePic = profilePic;
             }
         }
 }
