@@ -3,9 +3,9 @@ name: hapifyMe API Automated Tests
 # Declanșator: Când facem push pe branch-ul 'main' sau deschidem un Pull Request
 on:
   push:
-    branches: [ "main" ] # La fiecare push pe main
+    branches: [ "master" ] # La fiecare push pe main
   pull_request:
-    branches: [ "main" ] # La fiecare Pull Request
+    branches: [ "master" ] # La fiecare Pull Request
 
 jobs:
   test-api:
