@@ -58,21 +58,24 @@
             <version>4.2.0</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-    <!-- Allure TestNG - Conectorul dintre teste și raport -->
-    <dependency>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-testng</artifactId>
-        <version>2.24.0</version>
-    </dependency>
 
-    <!-- AspectJ Weaver - Necesar pentru injectarea pașilor Allure -->
-    <dependency>
-        <groupId>org.aspectj</groupId>
-        <artifactId>aspectjweaver</artifactId>
-        <version>1.9.22</version>
-        <scope>runtime</scope>
-    </dependency>
+        <!-- Allure TestNG - Conectorul dintre teste și raport -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.24.0</version>
+        </dependency>
+
+        <!-- AspectJ Weaver - Necesar pentru injectarea pașilor Allure -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.22</version>
+            <scope>runtime</scope>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
