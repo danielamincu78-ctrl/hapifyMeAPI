@@ -105,8 +105,6 @@ mvn clean test
 mvn test -DsuiteXmlFile=testng.xml
 ```
 
----
-
 ## Test Reporting
 
 The framework integrates **Allure Reports** for generating detailed execution reports, including:
