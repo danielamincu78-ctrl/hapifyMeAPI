@@ -1,3 +1,5 @@
+[![hapifyMe API Automated Tests](https://github.com/danielamincu78-ctrl/hapifyMeAPI/actions/workflows/main.yml/badge.svg)](https://github.com/danielamincu78-ctrl/hapifyMeAPI/actions/workflows/main.yml)
+
 # HapifyMe API Automation Framework
 
 A Java-based API automation framework built with **REST Assured**, **TestNG**, and **Maven**, demonstrating a complete End-to-End user lifecycle for the HapifyMe application.
